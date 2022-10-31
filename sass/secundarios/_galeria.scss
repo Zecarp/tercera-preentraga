@@ -1,0 +1,147 @@
+.body-Fondo{
+    background-color: #fc9aad;
+    .container{
+        h1{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            justify-content: center ;
+            font-size: 3rem;
+            background-color:#fc9aad; 
+        } 
+        .row{
+            .navbar navbar-expand-lg bg-#fc9aad{
+                .container{
+                    .navbar-toggler{
+
+                    }
+                    .navbar-toggler-icon{
+
+                    }
+                }
+                .collapse navbar-collapse #navbarNavDropdown{
+                    .navbar-nav{
+                        .nav-item{
+                            .nav-link active{
+
+                            }
+                        }
+                        .nav-item{
+                            .nav-link{
+                                
+                            }
+                        }
+                    }    
+                }
+               
+
+            }
+        }
+
+    }
+    .propiedades-grids{ 
+        padding: 1rem;
+        background-color: #EE6983;
+        justify-items: center;  
+        display: grid;
+        grid-template-columns:repeat(2, 2fr );
+        grid-template-rows: auto;
+        grid-template-areas:
+        "grid-productos0 grid-productos1"
+        "grid-productos0 grid-productos2"
+        "grid-productos0 grid-productos3"
+        "grid-productos0 grid-productos4"
+        "grid-productos0 grid-productos5"
+        "grid-productos0 grid-productos6";
+        justify-content: center;
+        justify-items: center;
+        .grid-productos0{
+            grid-area: grid-productos0; 
+            background-color: #FFC4C4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center; 
+            p {
+                .triunfar{
+                    display: flex;
+                    flex-direction: column;
+                    list-style: none;
+                    gap: 4rem;
+                    padding: 1rem;
+                }
+            }
+            .image-papap{
+                width: 15rem;
+                padding: 4px;
+            }
+        }
+        .grid-productos1 {
+        grid-area: grid-productos1;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        text-align: center; 
+        align-items: center;
+        img{width: 15rem;
+            padding: 4px;
+        }
+    }
+
+    .grid-productos2{
+        grid-area: grid-productos2;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        align-items: end;
+        img{width: 15rem;
+            padding: 4px;
+        }
+    }
+    .grid-productos3{
+        grid-area: grid-productos3;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        align-items: center;
+        img{width: 15rem;
+            padding: 4px;
+        }
+    }
+    .grid-productos4{
+        grid-area: grid-productos4;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        align-items: center;
+        img{width: 15rem;
+            padding: 4px;
+        }
+    }
+    .grid-productos5{
+        grid-area: grid-productos5;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        align-items: center;
+        img{width: 15rem;
+            padding: 4px;
+        }
+    }
+    .grid-productos6{
+        grid-area: grid-productos6;  
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        align-items: center;
+        img{width: 15rem;
+            padding: 4px;
+        }
+    }
+    }
+   
+   
+}
+

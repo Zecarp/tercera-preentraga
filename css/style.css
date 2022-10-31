@@ -1,0 +1,212 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* estilos body */
+body {
+  background-color: #fc9aad; }
+  body header h1 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    font-size: 3rem;
+    background-color: #fc9aad; }
+  body .main-home {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    margin: 30px;
+    padding: 30px; }
+    body .main-home h2 {
+      text-align: center;
+      font-family: cursive;
+      color: #EE6983; }
+    body .main-home div {
+      background-color: white;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding-top: 50px;
+      padding-bottom: 50px; }
+    body .main-home .whatss-face {
+      display: flex; }
+      body .main-home .whatss-face .loguitos {
+        width: 10%; }
+    body .main-home .fondaso {
+      width: 60%; }
+  body .footer-indexx {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fc9aad;
+    font-size: 1rem;
+    justify-content: space-around;
+    height: 2rem;
+    text-align: center; }
+    body .footer-indexx h2 {
+      display: flex;
+      color: white;
+      justify-content: center;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1rem; }
+
+@media screen and (min-width: 600px) {
+  header {
+    display: block; }
+  .footer-indexx {
+    display: block; } }
+
+body {
+  background-color: #fc9aad; }
+  body .contenedora h1 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    font-size: 3rem;
+    background-color: #fc9aad; }
+  body .contenedora .container .pulga {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  body .contenedora .productos-style {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5eded;
+    align-items: center;
+    border-radius: 6%;
+    padding: 1rem; }
+    body .contenedora .productos-style .probando-grid2 {
+      display: grid;
+      grid-template-columns: repeat(3, 3fr);
+      grid-template-rows: auto;
+      align-items: center;
+      padding: 4px;
+      gap: 5px; }
+      body .contenedora .productos-style .probando-grid2 .ahora-2 {
+        background-color: #ce4c8d;
+        padding: 3%;
+        border-radius: 20%;
+        width: 11rem; }
+
+.body-Fondo {
+  background-color: #fc9aad; }
+  .body-Fondo .container h1 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    font-size: 3rem;
+    background-color: #fc9aad; }
+  .body-Fondo .propiedades-grids {
+    padding: 1rem;
+    background-color: #EE6983;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: auto;
+    grid-template-areas: "grid-productos0 grid-productos1" "grid-productos0 grid-productos2" "grid-productos0 grid-productos3" "grid-productos0 grid-productos4" "grid-productos0 grid-productos5" "grid-productos0 grid-productos6";
+    justify-content: center;
+    justify-items: center; }
+    .body-Fondo .propiedades-grids .grid-productos0 {
+      grid-area: grid-productos0;
+      background-color: #FFC4C4;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center; }
+      .body-Fondo .propiedades-grids .grid-productos0 p .triunfar {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        gap: 4rem;
+        padding: 1rem; }
+      .body-Fondo .propiedades-grids .grid-productos0 .image-papap {
+        width: 15rem;
+        padding: 4px; }
+    .body-Fondo .propiedades-grids .grid-productos1 {
+      grid-area: grid-productos1;
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+      text-align: center;
+      align-items: center; }
+      .body-Fondo .propiedades-grids .grid-productos1 img {
+        width: 15rem;
+        padding: 4px; }
+    .body-Fondo .propiedades-grids .grid-productos2 {
+      grid-area: grid-productos2;
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+      align-items: end; }
+      .body-Fondo .propiedades-grids .grid-productos2 img {
+        width: 15rem;
+        padding: 4px; }
+    .body-Fondo .propiedades-grids .grid-productos3 {
+      grid-area: grid-productos3;
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+      align-items: center; }
+      .body-Fondo .propiedades-grids .grid-productos3 img {
+        width: 15rem;
+        padding: 4px; }
+    .body-Fondo .propiedades-grids .grid-productos4 {
+      grid-area: grid-productos4;
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+      align-items: center; }
+      .body-Fondo .propiedades-grids .grid-productos4 img {
+        width: 15rem;
+        padding: 4px; }
+    .body-Fondo .propiedades-grids .grid-productos5 {
+      grid-area: grid-productos5;
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+      align-items: center; }
+      .body-Fondo .propiedades-grids .grid-productos5 img {
+        width: 15rem;
+        padding: 4px; }
+    .body-Fondo .propiedades-grids .grid-productos6 {
+      grid-area: grid-productos6;
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+      align-items: center; }
+      .body-Fondo .propiedades-grids .grid-productos6 img {
+        width: 15rem;
+        padding: 4px; }
+
+.body-Fondo {
+  background-color: #fc9aad; }
+  .body-Fondo header h1 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    font-size: 3rem;
+    background-color: #fc9aad; }
+  .body-Fondo main {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    margin: 30px;
+    padding: 30px; }
